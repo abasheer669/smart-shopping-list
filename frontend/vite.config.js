@@ -22,6 +22,7 @@ export default defineConfig({
         ]
       },
       workbox: {
+        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         // Cache the API list endpoint for offline use
         runtimeCaching: [
           {
