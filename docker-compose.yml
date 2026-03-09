@@ -7,7 +7,7 @@ services:
       - "5000:5000"
     environment:
       - ASPNETCORE_URLS=http://+:5000
-      - Anthropic__ApiKey=${AIzaSyAK5TZawXd1YvWWimDjYyUhwTxyZY4rUFs}
+      - Anthropic__ApiKey=${YOUR API KEY}
     volumes:
       - db-data:/app/data
 
